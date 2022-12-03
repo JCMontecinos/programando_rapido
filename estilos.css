@@ -1,0 +1,12 @@
+body { /* Se aplica directamente al elemento <body> */
+    color: gray;
+   background-color: rgba(228, 20, 228, 0.267);
+  background: url("https://images.ecestaticos.com/m5jqCOFPFwzvn3ttY8H84okL6Ug=/0x0:1920x1278/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fe8e%2Fe27%2F2bf%2Fe8ee272bfd36f69679936351209d708c.jpg")
+  }
+  h2 { /* Se aplica directamente a todos los elementos de tipo <h2> */
+    color: navy;
+  }
+  /* Se aplica sólo en el elemento donde se use con el atributo `class` */
+  .clase-css-tag {
+    color: green;
+  }
